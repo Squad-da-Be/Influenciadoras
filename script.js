@@ -214,7 +214,7 @@ buscarButton.addEventListener("click", () => {
         `;
     } else {
         // Exibindo mensagem se o produto não for encontrado
-        resultadoDiv.innerHTML = "<p>Produto não encontrado.</p>";
+        resultadoDiv.innerHTML = "<p>Código não encontrado.</p>";
     }
 });
 
