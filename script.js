@@ -219,26 +219,4 @@ buscarButton.addEventListener("click", () => {
     }
 });
 
-// Função para formatar a data e hora no formato desejado
-function formatarDataHora(data) {
-    const dia = String(data.getDate()).padStart(2, '0');
-    const mes = String(data.getMonth() + 1).padStart(2, '0');
-    const ano = data.getFullYear();
-    const horas = String(data.getHours()).padStart(2, '0');
-    const minutos = String(data.getMinutes()).padStart(2, '0');
-    return `${dia}/${mes}/${ano} ${horas}:${minutos}`;
-}
-
-// Função para atualizar a data e hora da última atualização
-function atualizarDataHora() {
-    const ultimaAtualizacao = document.getElementById('ultimaAtualizacao');
-    const dataHoraAtual = new Date();
-    const dataHoraFormatada = formatarDataHora(dataHoraAtual);
-    ultimaAtualizacao.textContent = `Última atualização: ${dataHoraFormatada}`;
-}
-
-// Atualizar a data e hora a cada minuto (60.000 milissegundos)
-atualizarDataHora();
-setInterval(atualizarDataHora, 60000);
-
 
