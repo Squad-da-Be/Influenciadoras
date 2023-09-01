@@ -189,8 +189,6 @@ const data = [
     { codigo: "IA49", nome: "CAMILASANTOS10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "40" }, 
     { codigo: "TRFZ", nome: "ALINEFUNGACS10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "40" }, 
 
-     
- 
     // Adicione os dados restantes da sua planilha
 ];
 
@@ -211,14 +209,11 @@ buscarButton.addEventListener("click", () => {
             <p><strong>Nome:</strong> ${produto.nome}</p>
             <p><strong>Vendas:</strong> ${produto.vendas}</p>
             <p><strong>Comissão (sem bônus):</strong> ${produto.comissao}</p>
-            <p><strong>Bônus:</strong> ${produto.bonus}</p>
-            <p><strong>Comissão Total:</strong> ${produto.comissao_total:}</p>
-            <p><strong>Ranking mensal:</strong> ${produto.ranking}</p>
+            <p><strong>Sua posição no ranking mensal é:</strong> ${produto.ranking}</p>
+
         `;
     } else {
         // Exibindo mensagem se o produto não for encontrado
         resultadoDiv.innerHTML = "<p>Código não encontrado.</p>";
     }
 });
-
-
