@@ -209,6 +209,8 @@ buscarButton.addEventListener("click", () => {
             <p><strong>Nome:</strong> ${produto.nome}</p>
             <p><strong>Vendas:</strong> ${produto.vendas}</p>
             <p><strong>Comissão (sem bônus):</strong> ${produto.comissao}</p>
+            <p><strong>Comissão Bônus:</strong> ${produto.bonus}</p>
+            <p><strong>Comissão Total</strong> ${produto.comissao_total}</p>
             <p><strong>Sua posição no ranking mensal é:</strong> ${produto.ranking}</p>
 
         `;
