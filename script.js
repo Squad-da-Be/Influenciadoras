@@ -94,6 +94,8 @@ const data = [
   { codigo: "6SNV", nome: "GABRIELAFRAGOSO10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "10" }, 
   { codigo: "17LQ", nome: "NATALIAROSA10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "10" }, 
   { codigo: "UYZR", nome: "PAMELAARGIBAY10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "10" }, 
+  { codigo: "RPAZ", nome: "ROTINADEPROMOS10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "10" }, 
+
 
 
     // Adicione os dados restantes da sua planilha
