@@ -1,6 +1,6 @@
 // Dados simulados de vendas
 const data = [
-  { codigo: { codigo: "QXTD", nome: "anabeltrandicas10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "13" }, 
+  { codigo: "QXTD", nome: "anabeltrandicas10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "13" }, 
   { codigo: "T5WZ", nome: "elaine10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "13" }, 
   { codigo: "AVE7", nome: "dicasdaclarinha10", vendas: "11", comissao: "R$: 242,09", bonus: "R$: 70", comissao_total:"R$: 312,09", ranking: "4" }, 
   { codigo: "VBQ4", nome: "majestade10", vendas: "0", comissao: "R$: 0", bonus: "R$: 0", comissao_total:"R$: 0", ranking: "13" }, 
