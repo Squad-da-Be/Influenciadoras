@@ -119,8 +119,16 @@ buscarButton.addEventListener("click", () => {
             <p><strong>Bônus:</strong> ${produto.bonus}</p>
             <p><strong>Comissão final:</strong> ${produto.comissao_total}</p>
             <p><strong>Sua posição no ranking mensal é:</strong> ${produto.ranking}</p>
-            <p></p>
-            <p style="text-align: center;"><strong>Histórico de Pedidos</strong></p>
+            <br>
+            <br>
+            <style>
+            .sublinhado {
+            text-decoration: underline;
+            }
+            </style>
+            <p style="text-align: center;"><strong class="sublinhado">Histórico</strong></p>
+            <br>
+            
             <p><strong>Abril: </strong> ${produto.Abril}</p>
             <p><strong>Maio: </strong> ${produto.Maio}</p>
             <p><strong>Junho: </strong> ${produto.Junho}</p>
