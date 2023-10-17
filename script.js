@@ -122,24 +122,23 @@ buscarButton.addEventListener("click", () => {
             <br>
             <br>
            <style>
-            .caixa-cinza {
-             text-align: center;
-             background-color: #ccc; /* Cor de fundo cinza */
-             padding: 10px; /* Espaçamento interno */
-             display: inline-block; /* Torna o elemento inline como um bloco de nível */
+           .linha-tracada {
+           text-align: center;
+           border-bottom: 1px dashed #000; /* 1px de largura, tracejada, cor preta */
            }
            </style>
 
-<div class="caixa-cinza">
-  <strong>Histórico</strong>
+<p class="linha-tracada"><strong>Histórico de Pedidos</strong></p>
+
   <br>
+  
   <p><strong>Abril: </strong> ${produto.Abril}</p>
   <p><strong>Maio: </strong> ${produto.Maio}</p>
   <p><strong>Junho: </strong> ${produto.Junho}</p>
   <p><strong>Julho: </strong> ${produto.Julho}</p>
   <p><strong>Agosto: </strong> ${produto.Agosto}</p>
   <p><strong>Setembro: </strong> ${produto.Setembro}</p>
-</div>
+
 
 
         `;
