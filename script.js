@@ -131,6 +131,14 @@ buscarButton.addEventListener("click", () => {
             <p><strong>Bônus:</strong> ${produto.bonus}</p>
             <p><strong>Comissão final:</strong> ${produto.comissao_total}</p>
             <p><strong>Sua posição no ranking mensal é:</strong> ${produto.ranking}</p>
+            <p></p>
+            <p><strong>_____________________________________________________________________________Histórico_____________________________________________________________________________</strong></p>
+            <p><strong>Abril: </strong> ${produto.Abril}</p>
+            <p><strong>Maio: </strong> ${produto.Maio}</p>
+            <p><strong>Junho: </strong> ${produto.Junho}</p>
+            <p><strong>Julho: </strong> ${produto.Julho}</p>
+            <p><strong>Agosto: </strong> ${produto.Agosto}</p>
+            <p><strong>Setembro: </strong> ${produto.Setembro}</p>
         `;
     } else {
         // Exibindo mensagem se o produto não for encontrado
