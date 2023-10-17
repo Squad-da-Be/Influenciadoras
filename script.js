@@ -121,12 +121,19 @@ buscarButton.addEventListener("click", () => {
             <p><strong>Sua posição no ranking mensal é:</strong> ${produto.ranking}</p>
             <br>
             <br>
-            <style>
-            .sublinhado {
-            text-decoration: underline;
-            }
-            </style>
-            <p style="text-align: center;"><strong class="sublinhado">Histórico</strong></p>
+           <style>
+            .caixa-cinza {
+             text-align: center;
+             background-color: #ccc; /* Cor de fundo cinza */
+             padding: 10px; /* Espaçamento interno */
+             display: inline-block; /* Torna o elemento inline como um bloco de nível */
+           }
+           </style>
+
+<div class="caixa-cinza">
+  <strong>Histórico</strong>
+</div>
+
             <br>
             
             <p><strong>Abril: </strong> ${produto.Abril}</p>
