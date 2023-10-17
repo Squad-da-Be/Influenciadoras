@@ -120,7 +120,7 @@ buscarButton.addEventListener("click", () => {
             <p><strong>Comissão final:</strong> ${produto.comissao_total}</p>
             <p><strong>Sua posição no ranking mensal é:</strong> ${produto.ranking}</p>
             <p></p>
-            <p style="text-align: center;"><strong>Histórico</strong></p>
+            <p style="text-align: center;"><strong>Histórico de Pedidos</strong></p>
             <p><strong>Abril: </strong> ${produto.Abril}</p>
             <p><strong>Maio: </strong> ${produto.Maio}</p>
             <p><strong>Junho: </strong> ${produto.Junho}</p>
